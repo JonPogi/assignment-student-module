@@ -22,7 +22,8 @@ export class StudentController {
   // prettier-ignore
   // Update a student by ID
   @Put(':id')
-   async update(@Param('id') id: number, @Body() updateStudentDto: UpdateStudentDto): Promise<Student> {
+   async update(@Param('id') id: number, 
+   @Body() updateStudentDto: UpdateStudentDto): Promise<Student> {
    return this.studentService.updateStudent(id, updateStudentDto);
    }
 

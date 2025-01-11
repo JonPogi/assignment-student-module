@@ -28,7 +28,7 @@ export class StudentService {
     });
 
     if (!student) {
-      throw new Error('Student not found');
+      throw new Error(`Student with ID ${id} not found`);
     }
 
     // Apply the updates to the student object

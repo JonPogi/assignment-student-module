@@ -3,8 +3,8 @@ import { TypeOrmModule } from '@nestjs/typeorm';
 import { Student } from './student/student.entity';
 import { StudentController } from './student/student.controller';
 import { StudentService } from './student/student.service';
-
-
+// prettier-ignore
+// prettier-ignore
 
 @Module({
   imports: [
