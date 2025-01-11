@@ -4,6 +4,20 @@ AppData/
 Thumbs.db
 Desktop.ini
 
+# Ignore all user-specific files
+.VirtualBox/
+.arduinoIDE/
+.vscode/
+node_modules/
+AppData/
+Desktop/
+Downloads/
+Music/
+Videos/
+ntuser.*
+*.lnk
+
+
 # compiled output
 /dist
 /node_modules
